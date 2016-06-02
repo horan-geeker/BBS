@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+
+#member{
+	width:auto;
+	height:600px;
+	border:2px bolid 0;
+	font-size:12px;
+}
+
+#member h2{
+	text-align:center;
+	text-indent:0;
+	height:30px;
+	line-height:30px;
+}
+
+
+#member #member_sidebar{
+	width:30%;
+	height:550px;
+	margin:15px;
+	border:1px dashed black;
+	float:left;
+}
+#member #member_sidebar dl{
+	width:90%;
+	margin:15px auto;
+}
+
+#member #member_sidebar dl dt{
+	background:#999;
+	height:40px;
+	line-height:40px;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+
+#member #member_sidebar dl dd{
+	background:#eee;
+	height:40px;
+	line-height:40px;
+	font-weight:bold;
+	text-align:center;
+}
+#member #member_sidebar dl dd a{
+	padding:0;
+	display:block;
+	color:#333;
+	text-decoration:none;
+}
+#member #member_sidebar dl dd a:hover{
+	background:#ccc;
+}
+
+
+#member_main{
+	width:60%;
+	height:550px;
+	margin:15px;
+	border:1px dashed black;
+	float:right;
+}
+#member_main dl{
+	width:90%;
+	margin:15px auto;
+	font-size:14px;
+}
+#member_main dl dd{
+	padding:10px 0;
+	border-bottom:1px dashed #999;
+}
+#member_main dl dd p textarea{
+	width:210px;
+	height:60px;
+	border:1px dashed #333;
+	background:#fff;
+	margin:5px 0 0 4em;
+}
+#member dl dd input.text{
+	width:200px;
+}
+#member dl dd input.gender{
+	width:50px;
+}
+#member dl dd input.code{
+	width:100px;
+}
+
+#member dl dd img#code{
+	position:relative;
+	top:8px;
+	cursor:pointer;
+	padding:0;
+	margin:0;
+}
+
+#member dl dd input.submit{
+	width:60px;
+	height:26px;
+	margin:auto 50%;
+	padding:0;
+}

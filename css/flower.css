@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+*{
+	padding:2px;
+}
+body{
+	width:auto;
+}
+
+select{
+	width:80px;
+}
+
+.norepeat{
+	background-image:url("../image/icon/4.png");
+	background-repeat:no-repeat;
+	padding:0 0 0 18px;
+	color:black;
+}
+
+#flower h3{
+	width:90%;
+	margin:10px auto;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border:1px dashed #333;
+	background:#eee;
+}
+#list{
+	width:90%;
+	margin:0 auto;
+}
+#list_title{
+	
+}
+#list_content{
+	margin:5px 0;
+}
+#list_content input.text{
+	width:180px;
+	height:19px;
+	background:#fff;
+	border:1px dashed #333;
+}
+#list_content input.chk{
+	width:60px;
+}
+#list_content textarea{
+	width:100%;
+	height:120px;
+	background:#fff;
+	border:1px dashed #333;
+	overflow-y:scroll;
+}
+#list_content input.code{
+	width:110px;
+}
+#code{
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}
+#list_content input.submit{
+	cursor:pointer;
+}

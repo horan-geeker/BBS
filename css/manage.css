@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+#member_main dl{
+	width:90%;
+	margin:15px auto;
+	font-size:14px;
+}
+#member_main dl dd{
+	padding:7px 0;
+	border-bottom:1px dashed #999;
+}
+.face{
+	width:80px;
+	height:80px;
+	padding:0px;
+}

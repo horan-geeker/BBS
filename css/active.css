@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+#active a{
+	color:blue;
+}
+
+#active{
+	width:auto;
+	height:300px;
+	border:2px bolid 0;
+	font-size:12px;
+}
+
+#active h2{
+	text-indent:0;
+	text-align:center;
+}
+

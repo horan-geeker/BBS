@@ -1,0 +1,145 @@
+@CHARSET "UTF-8";
+#post{
+	width:auto;
+	height:600px;
+	border:2px bolid 0;
+	text-align:left;
+}
+
+#post dl dd label img{
+	width:20px;
+	height:20px;
+	padding:0 5px 0 0;
+}
+
+#post h2{
+	text-align:center;
+}
+
+#post div#ubb{
+	width:440px;
+	height:26px;
+	background:url(../image/icon/icons.gif) no-repeat 30px;
+	border:1px dashed #333;
+	border-bottom:1px solid #666;
+	padding:0 0 0 30px;
+}
+.ubbs{
+	display:block;
+	float:left;
+	cursor:pointer;
+	margin:5px 0 0 3.5px;
+	padding:0;
+	width:14px;
+	height:15px;
+}
+
+#post dl{
+	width:470px;
+	margin:0 auto;
+	
+}
+
+#post dl dt{
+	text-align:center;
+	padding:10px 0;
+	font-weight:bold;
+}
+.text{
+	padding:0;
+}
+#font{
+	display:none;
+	width:125px;
+	height:60px;
+	background-color:#eee;
+	border:1px dashed #333;
+	padding:8px;
+	line-height:20px;
+}
+#font strong{
+	font-weight:normal;
+	background:#fff;
+	border:1px solid #ccc;
+	cursor:pointer;
+}
+
+#color{
+	width:152px;
+	height:130px;
+	font-size:12px;
+	background:#eee;
+	border:1px dashed #333;
+	padding:4px 0 0 4px;
+	display:none;
+}
+#color strong{
+	border:1px dashed #333;
+	width:12px;
+	height:12px;
+	float:left;
+	display:block;
+}
+#color em{
+	display:block;
+	height:28px;
+	width:80%;
+	clear:both;
+}
+#color em input{
+	margin:10px 0 0 4px;
+	width:136px;
+	height:20px;
+	cursor:pointer;
+	background:#fff;
+}
+#post dl dd{
+	padding:5px 0;
+}
+#post dl dd label{
+	padding:0 5px 0 0;
+	cursor:pointer;
+}
+#radio{
+	cursor:pointer;
+}
+#post dl dd textarea{
+	width:460px;
+	height:220px;
+	border:1px solid #333;
+	background:#fff;
+	overflow:auto;
+}
+#post dl dd input.text{
+	width:250px;
+	height:20px;
+	border:1px dashed #333;
+	background:#fff;
+}
+
+#post dl dd input.gender{
+	width:50px;
+}
+
+#post dl dd input.code{
+	
+	width:80px;
+}
+
+#post dl dd img#code{
+	position:relative;
+	top:8px;
+	cursor:pointer;
+	padding:0;
+	margin:0;
+}
+
+#post dl dd input.submit{
+	width:80px;
+	height:26px;
+	border:1px dashed #333;
+	background:#fff;
+	cursor:pointer;
+	padding:0;
+	margin:0 0 0 1em;
+}

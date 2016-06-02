@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+#member_main dl{
+	width:90%;
+	margin:15px auto;
+	font-size:14px;
+}
+#member_main dl dd{
+	border-bottom:1px dashed #999;
+}
+#member_main dl dd input.text{
+	width:180px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+}
+#member_main dl dd input.submit{
+	width:100px;
+	height:40px;
+	border:1px dashed #333;
+	background:#fff;
+	cursor:pointer;
+}
+select{
+	height:30px;
+}

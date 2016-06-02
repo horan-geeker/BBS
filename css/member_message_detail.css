@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+#member #member_main #list{
+	width:90%;
+	margin:10px auto;
+}
+#member #member_main #list_content{
+	margin:5px;
+	line-height:150%;
+}
+#member #member_main #list_content input{
+	width:70px;
+	height:30px;
+	margin:0 auto;
+	display:inline-block;
+	font-size:12px;
+	cursor:pointer;
+}
+#member	#member_main table td a:hover{
+	text-decoration:underline;
+	
+}
+.button{
+	text-align:center;
+}

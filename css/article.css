@@ -1,0 +1,327 @@
+@CHARSET "UTF-8";
+
+.nice{
+	position:absolute;
+	top:150px;
+	left:10px;
+}
+.hot{
+	position:absolute;
+	top:150px;
+	left:200px;
+}
+#article{
+	width:auto;
+	min-height:800px;
+	border:2px bolid #ccc;
+	font-size:12px;
+	border:2px solid #eee;
+}
+
+#article h2{
+	text-indent:0;
+	text-align:center;
+}
+
+#face{
+	margin:0 auto;
+	display:block;
+	width:80px;
+	height:80px;
+	padding:0;
+}
+#article #subject dl{
+	width:20%;
+	padding:15px 0 0 45px;
+	float:left;
+}
+
+#article #subject dl dt{
+	width:80%;
+	margin:0.5em 0 0.5em 0;
+}
+
+#article #subject dl dd{
+	padding:0 0 0 1em;
+	margin:0 0 0 2em;
+	line-height:2em;
+	height:20px;
+	width:5em;
+	text-align:center;
+	float:left;
+}
+
+#article #subject dl dd.email{
+	width:100%;
+	margin:0 0 0 20px;
+	text-align:left;
+	padding:2px 0 0 0;
+	
+}
+#article #subject dl dd.user{
+	color:#f60;
+	width:150px;
+	float:none;
+}
+
+#article #subject dl dd.sendmsg{
+	background:url(../image/icon/2.png) no-repeat 5px bottom;
+}
+#article #subject dl dd.addfriend{
+	background:url(../image/icon/1.png) no-repeat left bottom;
+}
+#article #subject dl dd.guest{
+	background:url(../image/icon/3.png) no-repeat 5px bottom;
+}
+#article #subject dl dd.flower{
+	background:url(../image/icon/4.png) no-repeat left bottom;
+}
+#content{
+	position:relative;
+	float:right;
+	min-height:220px;
+	width:70%;
+	padding:5px 20px 20px 0;
+	
+}
+#subject #content #read{
+	position:absolute;
+	left:0;
+	bottom:0;
+	color:#666;
+}
+#user{
+	heigth:30px;
+	line-height:30px;
+	border-bottom:1px dashed #999;
+}
+#content #user span{
+	color:#06f;
+	float:right;
+}
+#subject h3{
+	font-size:14px;
+}
+#content h3 span a{
+	font-size:12px;
+	font-weight:normal;
+	color:#06f;
+}
+#content h3 span a:hover{
+	color:#f60;
+}
+#content h3 img{
+	width:25px;
+	height:25px;
+	padding:0;
+}
+#detail{
+	font-size:14px;
+	line-height:200%;
+}
+#detail *{
+	padding:0;
+}
+#detail p.autograph{
+	color:#666;
+	width:80%;
+	border-top:1px dashed #666;
+	margin:20px 0;
+}
+#subject dl dd.email{
+	width:150%;
+	padding:0;
+	margin:0;
+	text-align:left;
+	padding:2px 0 0 0;
+}
+#article p.line{
+	width:95%;
+	margin:0 auto;
+	padding:0;
+	clear:both;
+	border-bottom:1px dashed #333;
+}
+
+#article ul{
+	padding:0;
+}
+
+#article dl dd label img{
+	width:20px;
+	height:20px;
+	padding:0 5px 0 0;
+}
+
+#article h2{
+	text-align:center;
+}
+
+#article div#ubb{
+	width:100%;
+	height:26px;
+	background:url(../image/icon/icons.gif) no-repeat 30px;
+	border:1px dashed #333;
+	border-bottom:1px solid #666;
+	padding:0 0 0 30px;
+}
+.ubbs{
+	display:block;
+	float:left;
+	cursor:pointer;
+	margin:5px 0 0 3.5px;
+	padding:0;
+	width:14px;
+	height:15px;
+}
+
+
+
+#article dl dt{
+	text-align:center;
+	padding:10px 0;
+	font-weight:bold;
+}
+.text{
+	padding:0;
+}
+#font{
+	display:none;
+	width:125px;
+	height:60px;
+	background-color:#eee;
+	border:1px dashed #333;
+	padding:8px;
+	line-height:20px;
+}
+#font strong{
+	font-weight:normal;
+	cursor:pointer;
+}
+
+#color{
+	width:152px;
+	height:130px;
+	font-size:12px;
+	background:#eee;
+	border:1px dashed #333;
+	padding:4px 0 0 4px;
+	display:none;
+}
+#color strong{
+	border:1px dashed #333;
+	width:12px;
+	height:12px;
+	float:left;
+	display:block;
+}
+#color em{
+	display:block;
+	height:28px;
+	width:80%;
+	clear:both;
+}
+#color em input{
+	margin:10px 0 0 4px;
+	width:136px;
+	height:20px;
+	cursor:pointer;
+	background:#fff;
+}
+#article dl dd{
+	padding:5px 0;
+}
+#article dl dd label{
+	padding:0 5px 0 0;
+	cursor:pointer;
+}
+#article dl dd textarea{
+	width:104%;
+	height:220px;
+	border:1px solid #333;
+	background:#fff;
+	overflow:auto;
+}
+#article dl dd input.text{
+	width:250px;
+	height:20px;
+	border:1px dashed #333;
+	background:#fff;
+}
+
+#article dl dd input.gender{
+	width:50px;
+}
+
+#article dl dd input.code{
+	width:80px;
+}
+
+#article dl dd img#code{
+	position:relative;
+	top:8px;
+	cursor:pointer;
+	padding:0;
+	margin:0;
+}
+
+#article dl dd input.submit{
+	width:80px;
+	height:26px;
+	border:1px dashed #333;
+	background:#fff;
+	cursor:pointer;
+	padding:0;
+	margin:0 0 0 1em;
+}
+
+.reply dl{
+	width:40%;
+	margin:10px auto;
+}
+
+.re dl{
+	width:20%;
+	padding:15px 0 20px 45px;
+	float:left;
+}
+#article .re dl dt{
+	width:80%;
+	margin:0.5em 0 0.5em 0;
+}
+
+#article .re dl dd{
+	padding:0 0 0 1em;
+	margin:0 0 0 2em;
+	line-height:2em;
+	height:20px;
+	width:5em;
+	text-align:center;
+	float:left;
+}
+
+#article .re dl dd.email{
+	width:100%;
+	margin:0 0 0 20px;
+	text-align:left;
+	padding:2px 0 0 0;
+	
+}
+#article .re dl dd.user{
+	color:#f60;
+	width:150px;
+	float:none;
+}
+
+#article .re dl dd.sendmsg{
+	background:url(../image/icon/2.png) no-repeat 5px bottom;
+}
+#article .re dl dd.addfriend{
+	background:url(../image/icon/1.png) no-repeat left bottom;
+}
+#article .re dl dd.guest{
+	background:url(../image/icon/3.png) no-repeat 5px bottom;
+}
+#article .re dl dd.flower{
+	background:url(../image/icon/4.png) no-repeat left bottom;
+}

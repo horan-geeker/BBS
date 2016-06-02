@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+
+#photo{
+	width:auto;
+	height:600px;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+
+#photo ul{
+	padding:0;
+}
+
+#photo img{
+	margin:0 auto;
+	display:block;
+	width:80px;
+	height:80px;
+	padding:0;
+}
+
+#photo h2{
+	text-indent:0;
+	text-align:center;
+}
+#photo p{
+	text-align:center;
+	padding:20px;
+	clear:both;
+}
+#photo p a{
+	font-size:14px;
+	color:#333;
+}
+#photo dl{
+	width:150px;
+	min-height:150px;
+	margin:20px;
+	float:left;
+}
+#photo dl dt{
+	width:94px;
+	min-height:93px;
+	background:url(../image/1.jpg);
+	margin:0 auto;
+}
+#photo dl dt a{
+	padding:0;
+}
+#photo dl dt img{
+	display:block;
+	padding:7px;
+}
+#photo dd{
+	width:90px;
+	text-align:center;
+	margin:0 auto;
+}
+#photo dd a{
+	text-decoration:none;
+	color:#333;
+}
+#photo dd a:hover{
+	color:#f60;
+	text-decoration:underline;
+}
+#album{
+	width:30%;
+	margin:20px auto;
+}
+#album #pass{
+	display:none
+}
+#album textarea{
+	width:90%;
+	height:70px;
+	border:1px solid #333;
+	background:#fff;
+	overflow:auto;
+}
+#album input.submit{
+	width:100px;
+	height:26px;
+	border:1px dashed #333;
+	background:#fff;
+	cursor:pointer;
+	padding:0;
+	margin:1em 2em 0 0;
+	float:right;
+}
+
+#photo_show h2{
+	text-indent:0;
+	text-align:center;
+}
+#photo_show dl{
+	display:block;
+	float:left;
+	text-align:center;
+	margin:20px;
+	padding:20px;
+}
+#photo_show{
+	width:auto;
+	height:auto;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+#photo_show p{
+	text-align:center;
+	padding:20px;
+	clear:both;
+}
+#photo_show p a{
+	font-size:14px;
+	color:#333;
+}

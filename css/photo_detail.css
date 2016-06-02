@@ -1,0 +1,235 @@
+@CHARSET "UTF-8";
+
+#photo_detail{
+	width:auto;
+	height:auto;
+	border:2px solid #ccc;
+	font-size:12px;
+}
+
+#photo_detail h2{
+	text-indent:0;
+	text-align:center;
+}
+
+.detail{
+	text-align:center;
+	margin:20px;
+}
+.name{
+	font-weight:bold;
+	color:#333;
+}
+.line{
+	width:95%;
+	margin:0 auto;
+	padding:0;
+	clear:both;
+	border-bottom:1px dashed #333;
+}
+#photo_detail p.photo_line{
+	text-align:center;
+	padding:20px;
+	clear:both;
+}
+#photo_detail p a{
+	font-size:14px;
+	color:#333;
+}
+
+.photo_img a{
+	color:#f60;
+	font-size:14px;
+	font-weight:bold;
+	vertical-align:top;
+}
+
+
+.rephoto{
+	width:40%;
+	margin:10px auto;
+}
+
+.rephoto h2{
+	text-indent:0;
+	text-align:center;
+}
+
+
+.rephoto ul{
+	padding:0;
+}
+
+.rephoto dl dd label img{
+	width:20px;
+	height:20px;
+	padding:0 5px 0 0;
+}
+
+.rephoto h2{
+	text-align:center;
+}
+
+.rephoto div#ubb{
+	width:100%;
+	height:26px;
+	background:url(../image/icon/icons.gif) no-repeat 30px;
+	border:1px dashed #333;
+	border-bottom:1px solid #666;
+	padding:0 0 0 30px;
+}
+.ubbs{
+	display:block;
+	float:left;
+	cursor:pointer;
+	margin:5px 0 0 3.5px;
+	padding:0;
+	width:14px;
+	height:15px;
+}
+
+
+
+.rephoto dt{
+	text-align:center;
+	padding:10px 0;
+	font-weight:bold;
+}
+.text{
+	padding:0;
+}
+#font{
+	display:none;
+	width:125px;
+	height:60px;
+	background-color:#eee;
+	border:1px dashed #333;
+	padding:8px;
+	line-height:20px;
+}
+#font strong{
+	font-weight:normal;
+	cursor:pointer;
+}
+
+#color{
+	width:152px;
+	height:130px;
+	font-size:12px;
+	background:#eee;
+	border:1px dashed #333;
+	padding:4px 0 0 4px;
+	display:none;
+}
+#color strong{
+	border:1px dashed #333;
+	width:12px;
+	height:12px;
+	float:left;
+	display:block;
+}
+#color em{
+	display:block;
+	height:28px;
+	width:80%;
+	clear:both;
+}
+#color em input{
+	margin:10px 0 0 4px;
+	width:136px;
+	height:20px;
+	cursor:pointer;
+	background:#fff;
+}
+.rephoto dd{
+	padding:5px 0;
+}
+.rephoto dd label{
+	padding:0 5px 0 0;
+	cursor:pointer;
+}
+.rephoto dd textarea{
+	width:104%;
+	height:220px;
+	border:1px solid #333;
+	background:#fff;
+	overflow:auto;
+}
+.rephoto dd input.text{
+	width:250px;
+	height:20px;
+	border:1px dashed #333;
+	background:#fff;
+}
+
+.rephoto dd input.gender{
+	width:50px;
+}
+
+.rephoto dd input.code{
+	width:80px;
+}
+
+.rephoto dd img#code{
+	position:relative;
+	top:8px;
+	cursor:pointer;
+	padding:0;
+	margin:0;
+}
+
+.rephoto dd input.submit{
+	width:80px;
+	height:26px;
+	border:1px dashed #333;
+	background:#fff;
+	cursor:pointer;
+	padding:0;
+	margin:0 0 0 1em;
+}
+
+.re dl{
+	width:20%;
+	padding:15px 0 20px 45px;
+	float:left;
+}
+.re dl dt{
+	width:80%;
+	margin:0.5em 0 0.5em 0;
+}
+
+.re dl dd{
+	padding:0 0 0 1em;
+	margin:0 0 0 2em;
+	line-height:2em;
+	height:20px;
+	width:5em;
+	text-align:center;
+	float:left;
+}
+
+.re dl dd.email{
+	width:100%;
+	margin:0 0 0 20px;
+	text-align:left;
+	padding:2px 0 0 0;
+	
+}
+.re dl dd.user{
+	color:#f60;
+	width:150px;
+	float:none;
+}
+
+.re dl dd.sendmsg{
+	background:url(../image/icon/2.png) no-repeat 5px bottom;
+}
+.re dl dd.addfriend{
+	background:url(../image/icon/1.png) no-repeat left bottom;
+}
+.re dl dd.guest{
+	background:url(../image/icon/3.png) no-repeat 5px bottom;
+}
+.re dl dd.flower{
+	background:url(../image/icon/4.png) no-repeat left bottom;
+}
